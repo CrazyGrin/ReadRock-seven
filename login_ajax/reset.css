@@ -1,0 +1,92 @@
+a:hover,
+a:visited,
+a:link,
+a:active
+{
+    color: inherit;
+}
+a
+{
+    text-decoration: none;
+}
+button
+{
+    cursor: pointer;
+}
+body,
+div
+{
+    font-family: '微软雅黑';
+    font-size: 18px;
+    font-weight: 300;
+
+    margin: 0;
+    padding: 0;
+
+    color: gray;
+}
+input
+{
+    width: inherit;
+    height: 30px;
+
+    color: white;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-left: none;
+    outline: none;
+    background-color: rgba(255,255,255,0);
+}
+body
+{
+    background: url(back.jpg);
+}
+.main
+{
+    position: relative;
+    top: 100px;
+
+    box-sizing: border-box;
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 100px;
+
+    background: rgba(255,255,255,.1);
+}
+.input_div
+{
+    width: 300px;
+    margin: 0 auto;
+}
+.btn_div
+{
+    position: relative;
+    top: 100px;
+
+    width: 300px;
+    height: 40px;
+    margin: 0 auto;
+}
+.btn
+{
+    line-height: 40px;
+
+    width: 100px;
+    height: 40px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #333;
+    background-color: rgba(132,255,132,1);
+}
+#signin
+{
+    float: left;
+}
+#login
+{
+    float: right;
+}
